@@ -12,11 +12,11 @@ function App() {
 
 const [phrase, setPhrase] = useState(getRandom(arrayPhrases));
 
-
+ 
 const [image, setImage] = useState(getRandom(arrayImages));
 
 const objStyles = {
-  backgroundImage:`url(../public/fortuna-1/fondo${image}.jpg)`
+  backgroundImage:`url(../fortuna-1/fondo${image}.jpg)`
 };
 
   return (
